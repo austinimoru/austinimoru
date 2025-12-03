@@ -1,6 +1,6 @@
 # Austin Imoru — Ghostwriter for Visionaries
 
-<img src="https://via.placeholder.com/300x300/111827/FFFFFF?text=Austin+Imoru" align="right" width="280" style="border-radius:12px; margin-left:20px;">
+<img src="https://raw.githubusercontent.com/austinimoru/austinimoru.github.io/main/austin.jpg" align="right" width="280" style="border-radius:12px; margin-left:20px;">
 
 **I write the words that make you famous — without ever taking credit.**
 
@@ -40,3 +40,4 @@ Confidentiality guaranteed · NDA always signed · Your voice, my invisibility.
 
 ---
 © 2025 Austin Imoru · Professional Ghostwriter · Made on GitHub
+![austin jpg](https://github.com/user-attachments/assets/0cc63db2-94de-4b38-9f67-91fc7152e194)
