@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Austin Imoru — Ghostwriter for Visionaries</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root { --bg: #0a0a0a; --text: #ffffff; --accent: #00d4ff; --card-bg: #1a1a1a; --border: #333; }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Inter', sans-serif; background: var(--bg); color: var(--text); line-height: 1.6; overflow-x: hidden; }
+        header { background: linear-gradient(135deg, var(--bg) 0%, #000 100%); padding: 2rem 0; text-align: center; }
+        .hero { max-width: 1200px; margin: 0 auto; padding: 0 2rem; }
+        .hero h1 { font-size: 3.5rem; font-weight: 700; margin-bottom: 1rem; background: linear-gradient(45deg, var(--text), var(--accent)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; animation: fadeInUp 1s ease; }
+        .hero p { font-size: 1.5rem; margin-bottom: 2rem; opacity: 0.9; animation: fadeInUp 1s ease 0.2s both; }
+        .cta { display: inline-block; background: var(--accent); color: var(--bg); padding: 1rem 2rem; border-radius: 50px; text-decoration: none; font-weight: 600; transition: transform 0.3s; animation: fadeInUp 1s ease 0.4s both; }
+        .cta:hover { transform: scale(1.05); }
+        section { padding: 4rem 2rem; max-width: 1200px; margin: 0 auto; }
+        h2 { text-align: center; font-size: 2.5rem; margin-bottom: 3rem; color: var(--accent); }
+        .about { text-align: center; }
+        .about img { width: 200px; height: 200px; border-radius: 50%; margin-bottom: 2rem; border: 3px solid var(--accent); animation: fadeIn 1s ease; }
+        .services-grid, .samples-grid, .testimonials { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; }
+        .card { background: var(--card-bg); padding: 2rem; border-radius: 12px; border-left: 4px solid var(--accent); transition: transform 0.3s, box-shadow 0.3s; animation: fadeInUp 1s ease; }
+        .card:hover { transform: translateY(-5px); box-shadow: 0 10px 20px rgba(0,212,255,0.1); }
+        .card h3 { color: var(--accent); margin-bottom: 1rem; }
+        .testimonial { text-align: center; font-style: italic; }
+        .contact form { max-width: 600px; margin: 0 auto; display: grid; gap: 1rem; }
+        .contact input, .contact textarea { padding: 1rem; background: var(--card-bg); border: 1px solid var(--border); border-radius: 8px; color: var(--text); }
+        .contact button { background: var(--accent); color: var(--bg); padding: 1rem; border: none; border-radius: 8px; font-weight: 600; cursor: pointer; transition: background 0.3s; }
+        .contact button:hover { background: #00b8d4; }
+        footer { background: var(--bg); text-align: center; padding: 2rem; border-top: 1px solid var(--border); }
+        @keyframes fadeInUp { from { opacity: 0; transform: translateY(30px); } to { opacity: 1; transform: translateY(0); } }
+        @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+        @media (max-width: 768px) { .hero h1 { font-size: 2.5rem; } section { padding: 2rem 1rem; } }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="hero">
+            <h1>Austin Imoru</h1>
+            <p>Ghostwriter for Visionaries: I write the words that make you famous—without ever taking credit.</p>
+            <a href="#contact" class="cta">Get Your Free Sample</a>
+        </div>
+    </header>
+
+    <section id="about" class="about">
+        <img src="profile.jpg" alt="Austin Imoru Headshot">
+        <h2>About Me</h2>
+        <p>Since 2009, I’ve quietly authored 12 published books (including Amazon bestseller <em>Skills to Wealth</em>), Sunday sermons that filled megachurches, academic papers & lectures for professors, sales funnels that generated millions for CEOs, and viral blog series for 6- and 7-figure influencers.</p>
+        <p><strong>B.A. English & Literature – University of Benin (UNIBEN)</strong><br>Part-time Director of Communications – SkillUp Naija<br>Lagos-based | 100% remote | Available worldwide (USD · GBP · EUR via Payoneer/Wise)</p>
+    </section>
+
+    <section id="services">
+        <h2>What I Ghostwrite</h2>
+        <p style="text-align: center; max-width: 800px; margin: 0 auto 3rem;">Rates: $0.25–$0.60 per word | $2,000–$15,000 per project</p>
+        <div class="services-grid">
+            <div class="card">
+                <h3>📚 Non-fiction Books & Memoirs</h3>
+                <p>Timeless stories that build legacies.</p>
+            </div>
+            <div class="card">
+                <h3>🙏 Pastoral Sermons & Devotionals</h3>
+                <p>Soul-stirring words for eternal impact.</p>
+            </div>
+            <div class="card">
+                <h3>💼 Thought-Leadership Articles</h3>
+                <p>Forbes-style pieces that position you as an expert.</p>
+            </div>
+            <div class="card">
+                <h3>💰 High-Converting Sales Copy</h3>
+                <p>Email sequences and funnels that close deals.</p>
+            </div>
+            <div class="card">
+                <h3>🔗 LinkedIn Content & Speeches</h3>
+                <p>Executive voice for global stages.</p>
+            </div>
+            <div class="card">
+                <h3>🎓 Academic Papers & Lectures</h3>
+                <p>Scholarly depth with narrative flair.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="samples">
+        <h2>Writing Samples</h2>
+        <div class="samples-grid">
+            <div class="card">
+                <h3>Sunday Sermon Excerpt</h3>
+                <p>"When Grace Runs Out of Patience" – Ghosted for a megachurch pastor. Result: 87 salvations.</p>
+                <a href="sample-pastoral.md" style="color: var(--accent);">Read Sample</a>
+            </div>
+            <div class="card">
+                <h3>Business Book Chapter</h3>
+                <p>Opening from an entrepreneurship memoir. Sold 12,000+ copies.</p>
+                <a href="sample-business-book.md" style="color: var(--accent);">Read Sample</a>
+            </div>
+            <div class="card">
+                <h3>Sales Letter Snippet</h3>
+                <p>WhatsApp strategy that generated ₦87 million. 19.3% conversion.</p>
+                <a href="sample-sales-letter.md" style="color: var(--accent);">Read Sample</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonials" class="testimonials">
+        <h2>Anonymous Client Results</h2>
+        <div class="testimonials" style="display: flex; overflow-x: auto; gap: 1rem; padding: 1rem 0;">
+            <div class="card testimonial">
+                <p>“Austin ghostwrote my book. It hit #1 in Entrepreneurship on Amazon.”</p>
+                <cite>— Tech CEO (Lagos)</cite>
+            </div>
+            <div class="card testimonial">
+                <p>“He turned my rough sermon notes into messages that grew our church by 42%.”</p>
+                <cite>— Senior Pastor (Abuja)</cite>
+            </div>
+            <div class="card testimonial">
+                <p>“My sales letter pulled ₦87 million in 9 days. I still don’t know how he does it.”</p>
+                <cite>— E-commerce Founder</cite>
+            </div>
+            <div class="card testimonial">
+                <p>“Best decision I made — my professor never knew I didn’t write the paper myself.”</p>
+                <cite>— PhD Candidate (UK)</cite>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Let's Collaborate</h2>
+        <p style="text-align: center; max-width: 600px; margin: 0 auto 3rem;">Ready to put your name on bestseller-level writing? Get a free 500-word voice-matched sample (no obligation). Confidentiality guaranteed · NDA always signed.</p>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea rows="5" placeholder="Your Project Vision (e.g., book idea, sermon topic)" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+        <p style="text-align: center; margin-top: 2rem; font-size: 0.9rem; opacity: 0.8;">
+            📧 <a href="mailto:austin.imoru@skillupnaija.com" style="color: var(--accent);">austin.imoru@skillupnaija.com</a> | 
+            🔗 <a href="https://linkedin.com/in/austinimoru" style="color: var(--accent);" target="_blank">LinkedIn</a> | 
+            📚 <a href="https://amazon.com/author/austinimoru" style="color: var(--accent);" target="_blank">Amazon Author</a>
+        </p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Austin Imoru · Professional Ghostwriter · Made on GitHub</p>
+    </footer>
+
+    <script>
+        // Simple smooth scroll for CTA
+        document.querySelector('.cta').addEventListener('click', (e) => {
+            e.preventDefault(); document.querySelector('#contact').scrollIntoView({ behavior: 'smooth' });
+        });
+        // Form submission alert (replace with real backend later)
+        document.querySelector('form').addEventListener('submit', (e) => {
+            e.preventDefault(); alert('Thanks! I\'ll respond within 24 hours.'); // TODO: Integrate Netlify Forms
+        });
+    </script>
+</body>
+</html>
