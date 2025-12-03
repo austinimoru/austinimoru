@@ -1,6 +1,6 @@
 # Austin Imoru — Ghostwriter for Visionaries
 
-<img src="https://raw.githubusercontent.com/austinimoru/austinimoru.github.io/main/![austin jpg](https://github.com/user-attachments/assets/5a48ec4a-698a-4d24-b50d-005ca0774770)
+<img src="https://raw.githubusercontent.com/austinimoru/austinimoru.github.io/main/austin.jpg![austin jpg](https://github.com/user-attachments/assets/5a48ec4a-698a-4d24-b50d-005ca0774770)
 " align="right" width="280" style="border-radius:12px; margin-left:20px;">
 
 **I write the words that make you famous — without ever taking credit.**
