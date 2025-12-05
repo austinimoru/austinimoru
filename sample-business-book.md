@@ -16,7 +16,7 @@
 <div class="book-grid">
 
 <div class="book-card">
-  <img src="https://via.placeholder.com/600x800/1e293b/ffffff?text=From+Broke+to+Breakthrough" class="book-img" alt="From Broke to Breakthrough">
+  <img src="book1.jpg" class="book-img" alt="From Broke to Breakthrough">
   <div class="book-body">
     <h3 class="book-title">From Broke to Breakthrough</h3>
     <p class="book-excerpt">“I was 29, sitting in a danfo with a ₦42 million bounced cheque in my pocket. That day I learned the difference between being broke and being broken. Being broke is temporary. Being broken is a choice. This book is the exact playbook I used to turn that failure into a 9-figure empire — while Nigeria’s economy was in recession.”</p>
